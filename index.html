@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html>
 
+<head>
+  <meta charset='UTF-8'/>
+  <link rel='stylesheet' href='styleforwebsite.css'/>
+</head>
+
 <body>
+<ul>
+ <li class='active'><a href="default.asp">Home</a></li>
+ <li class='active'><a href="news.asp">News</a></li>
+ <li class='active'><a href="contact.asp">Contact</a></li>
+ <li class='active'><a href="about.asp">About</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
   <title>Travis Hoffman Portfolio</title>
   <h1>About Me: </h1>
-  <p>I'm a computer science student here at BYU that is
+  <div style='padding-top: 1px'></div>
+  <p>Computer science student here at BYU that is
     passionate about learning and solving new problems</p>
   <hr />
+  <div style='padding-top: 1px'></div>
   <h1>Projects: </h1>
   <ul>
     <li>This website! (It's a work in progress haha)</li>
@@ -14,15 +28,42 @@
     <li>A shopping cart program in c++</li>
   </ul>
   <hr />
+  <div style='padding-top: 1px'></div>
   <h1>Experience: </h1>
+  <div style='padding-top: 1px'></div>
   <ul>
     <li>Eccomerce Buisness Owner Feb 2021-Present</li>
     <li>Intern at Bear Country Bee's on a development team Jan 2022
       Here's a link to their website: <a href='https://www.bearcountrybees.com/' target='_blank'>bearcountrybees</a></li>
   </ul>
+  <div style='padding-top: 1px'></div>
   <hr />
 <h2>Contact: </h2>
 <p>Contact: notrealemail@notreal.com</p>
+<div>Button</div>
+
+<p class='synopsis'>CSS selectors let you <em>select</em> individual HTML
+   elements in an HTML document. This is <strong>super</strong> useful.</p>
+
+     <div class='page'>  <!-- Add this -->
+       <h1>CSS Selectors</h1>
+
+       <p  class='synopsis'>CSS selectors let you <em>select</em> individual HTML
+       elements in an HTML document. This is <strong>super</strong> useful.</p>
+
+       <p>Classes are ridiculously important, since they allow you to select
+       arbitrary boxes in your web pages.</p>
+
+       <p>We’ll also be talking about links in this example, so here’s
+       <a href='https://internetingishard.com'>Interneting Is Hard</a> for us to
+       style.</p>
+
+       <div class='button'>Button One</div>
+     </div>  <!-- And this -->
+     <a id='button-2' class='button' href='nowhere.html'>Button Two</a>
+
+
+
 </body>
 
 
